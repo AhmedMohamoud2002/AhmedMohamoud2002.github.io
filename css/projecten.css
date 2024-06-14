@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #001845;
+}
+
+.logo-img {
+    float: left;
+}
+
+header {
+   background-color: #5c677d;
+   font-size: 1.4rem;
+   height: 9vh;
+}
+
+div {
+    margin-right: 5vw;
+}
+
+.card {
+    width: 50vw;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+
+ul{
+    display:flex;
+    justify-content: right;
+    padding-top: 2vh;
+}
+ul li {
+    list-style: none;
+    padding-left: 1vw;
+}
+
+.project-container {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.first-project {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.second-project {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.first-project p {
+    margin-left: 10px;
+    font-size: 2rem;
+    color: white;
+}
+
+.second-project p {
+    margin-left: 10px;
+    font-size: 2rem;
+    color: white;
+}
